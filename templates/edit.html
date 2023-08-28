@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Page</title>
+    <style>
+      body{
+      background-color:black;
+      color:white;
+      }
+    </style>
+</head>
+<body>
+<form action="{{url_for('edit')}}" method="post">
+<h1>Hi this is Edit Page</h1>
+<h2> What day you wanna Edit </h2>
+<input type="name"placeholder="Enter the Day Here" name="name" required>
+
+<input type="password" placeholder="Enter the temp here" name="password" required>
+
+<button type="submit">Finish Editting</button>
+</form>
+</body>
+</html>

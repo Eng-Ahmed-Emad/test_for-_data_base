@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <style>
+      body{
+      background-color:black;
+      color:white;
+      }
+    </style>
+</head>
+<body>
+<h1>Hi This Is Home Page </h1>
+{% for key in data%}
+<p>Days we have with temps are </p>
+<p> {{key}}={{data[key]}}</p>
+{% endfor%}
+<br>
+<br>
+<br>
+<br>
+<a href="/add">Add Button</a>
+<br>
+<br>
+<br>
+<br>
+<a href="edit">Edit button</a>
+
+</body>
+</html>

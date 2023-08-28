@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Page</title>
+    <style>
+      body{
+      background-color:black;
+      color:white;
+      }
+    </style>
+</head>
+<body>
+
+<form  action="{{url_for('add')}}" method="post">
+<h1>Hi this is Add Page</h1>
+
+<h2> if you wanna add a day and temp  please fill the form below </h2>
+
+<input type="name"placeholder="Enter the Day Here" name="name" required>
+
+<input type="password" placeholder="Enter the temp here" name="password" required>
+
+<button type="submit">Finish Adding</button>
+
+</form>
+</body>
+</html>
